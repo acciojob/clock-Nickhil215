@@ -1,7 +1,7 @@
 function getTime() {	
 
 const time =new Date();
-let dayString=`${time.getMonth()+1}:${time.getDate()}:${time.getFullYear()}`;
+let dayString=`${time.getMonth()+1}/${time.getDate()}/${time.getFullYear()}`;
 let hr=time.getHours();
 
 let timeString='';
